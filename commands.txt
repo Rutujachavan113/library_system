@@ -1,0 +1,7 @@
+g++ -c -x c sqlite3.c -o sqlite3.o
+
+g++ -c code.cpp -o code.o
+
+g++ code.o sqlite3.o -o code.exe
+
+code.exe
